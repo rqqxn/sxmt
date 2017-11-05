@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+body{ background:;}
+.top{ width:100%; margin:0 auto; background: url(../images/modal/33_02.gif) repeat-x;}
+.top .box{ width:994px; margin:0 auto; height:163px; padding-top:13px; background: url(../images/modal/pic_05.gif) no-repeat right 71px;}
+.top .box>a{ float:left; line-height:16px; border-right:1px solid #c5d0cc; text-align:center; font-size:12px; color:#16583d;}
+.top .box a:hover{ color:#F00;}
+.top .box>img{ float:left; margin:8px 194px 0 10px;}
+.top .box form p{ width:340px; float:right; margin:16px 2px 13px 0; height:30px;}
+.top .box form p label{ display:block; width:88px; hieght:30px; line-height:30px; float:right;}
+.top .box form p label:hover{ cursor:pointer;}
+.top .box form p input{ display:block; width:251px; height:26px; line-height:26px; float:left; border:1px solid #CCC; border-right:0;}
+.top .box .one{width:982px; margin:0 auto;}
+.top .box ul{background:url(../images/modal/menu_bg.gif) no-repeat center top; height:59px; margin-top:105px;}
+.top .box ul li{ float:left;}
+.top .box ul li a{display:block; height:56px;}
+.top .box ul li:nth-child(1) a:hover{background: url(../images/modal/menu_bg2.gif) no-repeat -3px top;}
+.top .box ul li:nth-child(2) a:hover{background: url(../images/modal/menu_bg2.gif) no-repeat -130px top;}
+.top .box ul li:nth-child(3) a:hover{background: url(../images/modal/menu_bg2.gif) no-repeat -272px top;}
+.top .box ul li:nth-child(4) a:hover{background: url(../images/modal/menu_bg2.gif) no-repeat -550px top;}
+.top .box ul li:nth-child(5) a:hover{background: url(../images/modal/menu_bg2.gif) no-repeat -411px top;}
+.top .box ul li:nth-child(6) a:hover{background: url(../images/modal/menu_bg2.gif) no-repeat -836px top;}
+.top .box ul li:nth-child(7) a:hover{background: url(../images/modal/menu_bg2.gif) no-repeat -690px top;}
+
+.box{width:100%; margin:0 auto; background:url(../images/modal/kk_03.gif) repeat-x; }
+.layout .content{width:980px; margin:0px auto 0 auto; background:url(../images/jtwh_4.jpg) no-repeat 35px 0px, #fff;height:890px;}
+.layout .content .header{border-bottom:1px dashed #ccc; margin-right:35px; margin-left:35px; margin-bottom:8px; height:500px; position:relative;}
+.layout .content .header p{line-height:24px; font-size:12px; color:#000000;}
+.layout .content .header img{ display:block;}
+.layout .content .header .one{position:absolute; left:571px; top:68px;}
+.layout .content .header .one span{color:#3c8b6d; font-weight:bold;}
+.layout .content .header .yi{position:absolute; top:145px; left:571px;}
+.layout .content .header .two{position:absolute; top:161px; left:50px;}
+.layout .content .header .two span{color:#c51300; font-weight:bold;}
+.layout .content .header .er{position:absolute; top:336px; left:50px;}
+.layout .content .header .three{position:absolute; top:341px; left:476px;}
+.layout .content .header .three span{color:#000000; font-weight:bold;}
+.layout .content .header .san{position:absolute; top:435px; left:477px;}
+.layout .content .bottom{padding-bottom:153px;}
+.layout .content .bottom div{float:left; margin-top:8px; margin-left:66px; width:227px;}
+.layout .content .bottom div h4{height:53px; line-height:53px; font-size:12px; color:#00a26a;}
+.layout .content .bottom div img{border:1px solid #e4e4e4;}
+
+
+.footer{width:980px; margin:15px auto 2px auto; background:url(../images/modal/foot_bg.jpg) no-repeat left top; border:1px solid #d2d5da;}
+.footer .left{float:left; padding-left:29px; width:555px;}
+.footer .left p{ font-size:12px; color:#030303;}
+.footer .left p:nth-child(1){height:26px; line-height:26px; color:#275a3b; padding-top:17px; font-weight:bold;}
+.footer .left p:nth-child(2){line-height:24px;}
+.footer .right{float:right; padding-right:14px; padding-top:11px;}
+.footer .right form p select{height:20px; line-height:20px; border:1px solid #e1e2e4; font-size:12px; color:#000; border-top-color:#a0a2a1;}
+.footer .right form p select:nth-child(1){ width:109px;}
+.footer .right form p select:nth-child(2){ width:171px;}

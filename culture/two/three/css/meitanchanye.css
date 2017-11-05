@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+.wrap:nth-child(2){width:100%; border-top:1px solid #e8eae9; margin-top:5px; background:url(../img/bei_03.jpg) repeat-x;}
+.main{width:989px; margin:0 auto; padding-top:7px;}
+.main .banner{height:183px; margin-bottom:14px;}
+.main .content{width:970px; height:1020px; background:#ffffff; padding:8px 0 0 10px;}
+.main .content .list,.right{float:left;}
+.main .content .list{width:264px; padding:7px 0 0 6px; margin-right:10px; background:url(../img/ims.gif) no-repeat, url(../img/ims_1.gif) no-repeat 211px 0;}
+.main .content .list ul{width:256px; background:#f9f9f9; border:1px solid #dddddd; height:257px;}
+.main .content .list ul h1{height:35px; line-height:35px; padding-left:15px; font-size:16px; font-family:微软雅黑; color:#fcffff; background:url(../img/ims_07.jpg); margin-bottom:13px;}
+.main .content .list ul li{width:221px; padding:12px 0 0 35px;  background:url(../img/ims_18.jpg) no-repeat 16px bottom; position:relative;}
+.main .content .list ul li>div{width:6px; height:6px; border-radius:6px; border:1px solid #7bab9b; position:absolute; left:12px; top:14px; box-shadow:0 0  1px 1px #7bab9b;}
+.main .content .list ul li a{display:block; height:22px; line-height:12px; font-size:12px; font-family:微软雅黑; font-weight:bold; color:#1c5340;}
+.main .content .list ul li:hover{ background:url(../img/ims_1.jpg) no-repeat 5px 4px;}
+.main .content .list ul li:hover a{color:#ffffff;}
+.main .content .list ul li:hover div{width:7px; height:7px; border-radius:7px; border:2px solid #ffffff; border-shadow:0 0 2px 4px #ffffff;}
+.main .content .list ul p a{display:block; height:21px; line-height:12px; padding:11px 0 0 65px; font-size:12px; color:#646464; background:url(../img/ims_19.jpg) no-repeat 34px 25px;}
+.main .content .list ul p a:hover{background:url(../img/ims.jpg) no-repeat 28px; color:#ffffff;}
+.main .content .right{width:682px;}
+.main .content .right .top{height:96px; padding-left:20px; background:url(../img/ims_2.gif) no-repeat, url(../img/ims_3.gif) no-repeat 543px top; position:relative;}
+.main .content .right .top img{position:absolute; left:25px; top:24px;}
+.main .content .right .top .top-left,.top-right{float:left;}
+.main .content .right .top .top-left{width:137px; height:70px; line-height:12px; padding:19px 0 0 99px; margin-right:3px;}
+.main .content .right .top .top-left p:nth-child(1){height:26px; line-height:26px; font-size:16px; color:#005e3d; font-weight:bold; font-family:微软雅黑;}
+.main .content .right .top .top-left p:nth-child(2){height:23px; line-height:23px; font-size:16px; color:#9a9a9a;}
+.main .content .right .top .top-right{width:225px; height:74px; line-height:12px; padding:20px 0 0 149px; font-size:12px; font-family:微软雅黑; color:#010101;}
+.main .content .right .top .top-right a{font-size:12px; color:#626262;}
+.main .content .right .top .top-right a:hover{color:#0b5b40; text-shadow:0 0 1px 1px #d4ffff;}
+.main .content .right .bottom{width:609px; padding-left:36px; position:relative;}
+.main .content .right .bottom img{position:absolute; left:237px; top:186px;}
+.main .content .right .bottom .aa{padding:5px 0 0 6px; width:356px; height:48px; background:url(../img/xuxian.jpg) no-repeat; margin-bottom:17px;}
+.main .content .right .bottom .aa h1{width:351px; height:42px; line-height:42px; text-indent:14px; font-size:16px; color:#000000; background:url(../img/sanji-2.jpg) repeat-x;}
+.main .content .right .bottom ul li{width:231px; height:36px; line-height:36px; padding-left:61px; font-size:12px; font-family:微软雅黑; font-weight:bold; color:#444444; background:url(../img/biaoshi.jpg) no-repeat 31px 13px, url(../img/sanji-3.jpg) repeat-y; margin-bottom:3px;}
+
+
+

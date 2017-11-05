@@ -1,0 +1,287 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="" />
+<title>首页</title>
+<link href="style/index.css" rel="stylesheet" type="text/css"/>
+<link href="style/modal.css" rel="stylesheet" type="text/css"/>
+<link href="style/lrtk.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="SpryAssets/js/jquery.js"></script>
+<script type="text/javascript" src="SpryAssets/js/superslide.2.1.js"></script>
+<script type="text/javascript" src="SpryAssets/js/js.js"></script>
+</head>
+
+<body>
+<!--top-->
+<div class="top">
+  <div class="box clearfix"> <a href="#" style="width:100px; margin-left:537px;">晋能文化品牌网</a> <a href="#" style="width:67px;">采购平台</a> <a href="#" style="width:102px;">铁路煤炭信息网</a> <a href="#" style="width:55px;">数字报</a> <a href="#" style="width:44px;">内网</a> <a href="#" style="width:68px; border-right:0;">办公系统</a> <img src="image/modal/3_05.gif"/>
+    <form>
+      <p>
+        <label for="text"><img src="image/4_03.gif"/></label>
+        <input type="text" id="text"/>
+      </p>
+    </form>
+    <div class="one">
+      <ul class="clearfix">
+        <li><a href="index.html" style="width:128px;">&nbsp;</a></li>
+        <li><a href="set/set.html" style="width:142px;">&nbsp;</a></li>
+        <li><a href="news/new.html"style="width:139px;">&nbsp;</a></li>
+        <li><a href="main/main.html" style="width:141px;">&nbsp;</a></li>
+        <li><a href="dynamics/dynamics.html" style="width:138px;">&nbsp;</a></li>
+        <li><a href="culture/index.html" style="width:148px;">&nbsp;</a></li>
+        <li><a href="corporate/index.html" style="width:146px;">&nbsp;</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!--动画-上-->
+<div class="fullSlide">
+  <div class="mm">
+    <div class="bd">
+      <ul>
+        <li _src="url(image/aa.jpg)" style="background:center 0 no-repeat;"><a href="#"></a></li>
+        <li _src="url(image/bb.jpg)" style="background:center 0 no-repeat;"><a href="#"></a></li>
+        <li _src="url(image/cc.jpg)" style="background:center 0 no-repeat;"><a href="#"></a></li>
+        <li _src="url(image/dd.jpg)" style="background:center 0 no-repeat;"><a href="#"></a></li>
+        <li _src="url(image/ee.jpg)" style="background:center 0 no-repeat;"><a href="#"></a></li>
+      </ul>
+    </div>
+    <div class="hd"></div>
+    <span class="prev"></span> <span class="next"></span> </div>
+</div>
+
+<!--fullSlide end--> 
+<script type="text/javascript">
+$(".fullSlide").hover(function(){
+    $(this).find(".prev,.next").stop(true, true).fadeTo("show", 0.5)
+},
+function(){
+    $(this).find(".prev,.next").fadeOut()
+});
+$(".fullSlide").slide({
+    titCell: ".hd ul",
+    mainCell: ".bd ul",
+    effect: "fold",
+    autoPlay: true,
+    autoPage: true,
+    trigger: "click",
+    startFun: function(i) {
+        var curLi = jQuery(".fullSlide .bd li").eq(i);
+        if ( !! curLi.attr("_src")) {
+            curLi.css("background-image", curLi.attr("_src")).removeAttr("_src")
+        }
+    }
+});
+</script>
+</div>
+
+<!--ban-->
+<div class="ban">
+  <div class="dong clearfix"> 
+  <img src="image/aa_6_03.gif"/>
+    <div class="one">
+      <marquee scrolldelay='300' direction='up' height="36px" onmouseover='this.stop()' onmouseout='this.start()'>
+      <h2>集团公告</h2>
+      <p>启事</p>
+      <span>2016-11-04</span>
+      <h2>集团公告</h2>
+      <p>启事</p>
+      <span>2016-11-05</span>
+      <h2>集团公告</h2>
+      <p>启事</p>
+      <span>2016-11-06</span>
+      <h2>集团公告</h2>
+      <p>启事</p>
+      <span>2016-11-07</span>
+      </marquee>
+    </div>
+    <img src="image/aa_6_03.gif" style=" margin-left:10px;"/>
+    <div class="two">
+      <h2>通宝能源</h2>
+      <span>（600780）</span>
+      <p>当前价格：5.880元</p>
+    </div>
+  </div>
+</div>
+
+<!--pic--> 
+<img src="image/2016-11-14_085452.jpg" style="margin:11px auto;"/>
+<div class="banner">
+  <div class="box clearfix">
+    <div class="left">
+    <img src="image/vv_03 (3).gif"/>
+    <!-- 代码 开始 -->
+<div id="tab">
+  <div class="tabList">
+	<ul>
+		<li class="cur"><a href="#">集团要闻</a></li>
+		<li><a href="#">安全生产</a></li>
+		<li><a href="#">党群动态</a></li>
+        <li style="width:100px;"><a href="#" style="width:100px;">下属企业新闻</a></li>
+        <li><a href="#">媒体报道</a></li>
+		<li><a href="#">行业资讯</a></li>
+	</ul>
+  </div>
+  <div class="tabCon">
+	<div class="cur">
+    	<p><a href="son/two/subpage_1.html">集团铁路煤炭销售总公司召开十月份经济运行分析会</a><span>2016-11-16</span></p>
+        <p><a href="son/two/subpage_2.html">技术创新助力企业提质增效</a><span>2016-11-16</span></p>
+        <p><a href="son/two/subpage_3.html">集团公司召开二级党委党工部长会议</a><span>2016-11-15</span></p>
+        <p><a href="son/two/subpage_2.html">晋银公司纯银工艺品荣获全国工艺行业&ldquo;百花杯&rdquo;铜奖</a><span>2016-11-15</span></p>
+        <p><a href="son/two/subpage_3.html">集团公司党委发文要求认真学习贯彻六中全会精神 深入</a><span>2016-11-14</span></p>
+        <p><a href="son/two/subpage_1.html">王启瑞等与中信银行太原分行行长郭勇座谈</a><span>2016-11-14</span></p>
+        <p><a href="son/two/subpage_4.html">集团领导与煤炭工业规划设计院领导座谈</a><span>2016-11-11</span></p>
+    </div>
+	<div>
+        <p><a href="son/two/subpage_1.html">地电交口分公司打响冬检&ldquo;发令枪&rdquo;</a><span>2016-11-15</span></p>
+        <p><a href="son/two/subpage_4.html">地电临县分公司加强防火安全自检工作</a><span>2016-11-15</span></p>
+        <p><a href="son/two/subpage_3.html">上社公司五项举措做好冬季&ldquo;三防&rdquo;工作</a><span>2016-11-14</span></p>
+        <p><a href="son/two/subpage_1.html">晋煤物流阳泉公司开展冬季&ldquo;三防&rdquo;</a><span>2016-11-14</span></p>
+        <p><a href="son/two/subpage_2.html">长治热电公司开展防寒防冻检查</a><span>2016-11-11</span></p>
+        <p><a href="son/two/subpage_4.html">大同公司部署安全生产工作 全力决战四季度</a><span>2016-11-10</span></p>
+        <p><a href="son/two/subpage_1.html">晋神铁路公司备战冬季&ldquo;三防&rdquo;工作</a><span>2016-11-09</span></p>
+    </div>
+	<div>
+        <p><a href="son/two/subpage_4.html">首阳煤业文体竞赛凝聚人心</a><span>2016-11-16</span></p>
+        <p><a href="son/two/subpage_1.html">地电蒲县分公司党员开展安全生产大讨论</a><span>2016-11-16</span></p>
+        <p><a href="son/two/subpage_3.html">忻州公司纪委对14名干部进行约谈</a><span>2016-11-16</span></p>
+        <p><a href="son/two/subpage_4.html">神农煤业开展&ldquo;两学一做&rdquo;专题研讨</a><span>2016-11-15</span></p>
+        <p><a href="son/two/subpage_2.html">大西煤业多种形式学习《中国共产党问责条例》</a><span>2016-11-15</span></p>
+        <p><a href="son/two/subpage_4.html">集团各单位组织观看反腐败专题片《永远在路上》</a><span>2016-11-14</span></p>
+        <p><a href="son/two/subpage_1.html">地电安泽分公司党员观看《榜样》专题节目</a><span>2016-11-14</span></p>
+    </div>
+	<div>
+    	<p><a href="son/two/subpage_3.html">愉园大酒店开展&ldquo;我为酒店发展谏言献策&rdquo;活动</a><span>2016-11-16</span></p>
+        <p><a href="son/two/subpage_1.html">三元中能煤业井下生产再添利器</a><span>2016-11-16</span></p>
+        <p><a href="son/two/subpage_4.html">晋城大店通过&ldquo;全国四星级酒店&rdquo;三年重评</a><span>2016-11-16</span></p>
+        <p><a href="son/two/subpage_1.html">阳光发电公司超低排放改造工程通过环保验收</a><span>2016-11-15</span></p>
+        <p><a href="son/two/subpage_3.html">晋能电力集团组织安全生产管理人员进行远程在线调考</a><span>2016-11-14</span></p>
+        <p><a href="son/two/subpage_1.html">省能监办对地电公司开展许可证制度专项检查</a><span>2016-11-14</span></p>
+        <p><a href="son/two/subpage_4.html">国金电力公司2号机组首次并网发电一次成功</a><span>2016-11-10</span></p>
+    </div>
+    <div>
+        <p><a href="son/two/subpage_1.html">文化引领下的平安晋能之路&mdash;&mdash;晋能集团以安全文化促安</a><span>2016-11-07</span></p>
+        <p><a href="son/two/subpage_2.html">以优异成绩迎接省第十一次党代会&mdash;&mdash;晋能集团五指并</a><span>2016-10-26</span></p>
+        <p><a href="son/two/subpage_4.html">上党大地的煤业传奇&mdash;&mdash;记晋能集团山西三元煤业股份有</a><span>2016-10-25</span></p>
+        <p><a href="son/two/subpage_1.html">晋能科技杨立友：遵循技术迭代滚动战略 争做技术老大</a><span>2016-10-21</span></p>
+        <p><a href="son/two/subpage_3.html">三元中能煤业：天下大事必作于细</a><span>2016-10-20</span></p>
+        <p><a href="son/two/subpage_2.html">晋能清洁能源科技有限公司跻身全球光伏前5%最先进产</a><span>2016-10-10</span></p>
+        <p><a href="son/two/subpage_1.html">山西煤炭去产能首座矿井关闭</a><span>2016-09-30</span></p>
+    </div>
+    <div>
+        <p><a href="son/two/subpage_3.html">我省新能源发电装机容量首破千万千瓦</a><span>2016-11-15</span></p>
+        <p><a href="son/two/subpage_1.html">前10月用电量增2.8% 今冬明春或现短期紧张</a><span>2016-11-15</span></p>
+        <p><a href="son/two/subpage_2.html">统计局：11月上旬各煤种价格依旧上涨</a><span>2016-11-15</span></p>
+        <p><a href="son/two/subpage_4.html">我省&ldquo;十三五&rdquo;安全生产规划出台</a><span>2016-11-14</span></p>
+        <p><a href="son/two/subpage_2.html">国家煤监局：严打煤矿超能力生产防范和遏制重特大</a><span>2016-11-14</span></p>
+        <p><a href="son/two/subpage_3.html">国家能源局要求进一步加强煤矿瓦斯防治工作</a><span>2016-11-11</span></p>
+        <p><a href="son/two/subpage_2.html">发改委：增加煤炭运力 多管齐下限煤价</a><span>2016-11-09</span></p>
+    </div>
+  </div>
+</div>
+<!-- 代码 结束 -->
+
+    </div>
+    <div class="right">
+      <form>
+        <p>
+          <input type="submit" value="更多>>" width="61"/>
+        </p>
+      </form>
+      <img src="image/vv_03 (4).gif"/> </div>
+  </div>
+</div>
+<div class="main">
+  <div class="box clearfix">
+    <div class="one">
+      <h2>煤炭产业</h2>
+      <span><a href="son/two/three/index.html">了解更多>></a></span>
+      	<p>山西煤销集团资源整合后，保有煤炭储量106亿吨，规划年产能1.3亿吨。秉承"办大矿、办安全高效矿井、办现代化本质安全型矿井"的办矿理念，按照一井一面；装备技术现代化；专项治理措施落实；矿井质量标准化动态达标；控制入井人数，提高员工队伍整体素质；组织正规循环作业，严禁超能力生产的"六大阶段性目标"，以本质安全型矿井建设为重点，加快建设现代化的煤炭生产业。</p>
+        <img src="image/pp_03 (2).gif"/>
+      </div>
+      
+    <div class="two">
+      <h2>煤炭物流</h2>
+      <span><a href="son/two/three/index.html">了解更多>></a></span>
+      <p>山西煤销集团依托原有的站点和网络优势，加快建设专业化的煤炭物流业，重点建好"一个平台"，即吸收和推广物联网技术，建设信息化管理平台；掌控"五个节点"，即采购加工节点、配送运输节点、超市集散地节点、港口集散地节点、铁路建设节点，最终形成完整的物流产业链。山西煤销集团将实现年煤炭物流量3.5亿吨，年物流配送量2亿吨，建成全国煤炭物流的"巨无霸"。</p>
+      <img src="image/pp_05.gif"/>
+      </div>
+      
+    <div class="three">
+      <h2>多元产业</h2>
+      <span><a href="son/two/three/index.html">了解更多>></a></span>
+      <p>山西煤销集团多元产业以煤为基，以煤化工为主，重点发展以焦炉煤气制烯烃、制芳烃为主的煤化工，以煤层气、煤变气为主的清洁能源，以高端引进、消化为主的煤机装备制造，以LNG、CNG为主的洁净燃料管网建设，以银冶炼加工、金属粉末制造为主的新材料，以煤矸石、粉煤灰为主的伴生资源综合利用，以融入市域城镇化建设的房地产和以酒店业、生态观光农业为主的现代旅游业等几大产业。</p>
+      <img src="image/pp_07.gif"/>
+      </div>
+  </div>
+</div>
+
+</div>
+<!--pic--> 
+<img src="image/2016-11-14_085630.jpg" style="margin:11px auto;"/> 
+
+<div class="bottom">
+    <div class="box clearfix">
+      <iframe src="SpryAssets/table/table.html" width="332px" marginheight="0"  frameborder="0" marginwidth="0" name="TabbedPanels1" scrolling="no" height="238px">  
+      </iframe>
+      
+      <iframe src="SpryAssets/table/table.html" width="318px" marginheight="0"  frameborder="0" marginwidth="0" name="TabbedPanels1" scrolling="no" height="238px">  
+      </iframe>
+      
+      <iframe src="SpryAssets/table/table.html" width="318px" marginheight="0"  frameborder="0" marginwidth="0" name="TabbedPanels1" scrolling="no" height="238px">  
+      </iframe>
+
+	</div>
+   </div>
+</div>
+<!--footer-->
+<div class="footer clearfix">
+  <div class="left">
+    <p>主办：山西煤炭运销集团有限公司 技术支持：山西煤销集团新闻中心</p>
+    <p>地址：中国山西太原开化寺街82号 邮政编码：030002 E-MALL：sxmxxcb@163.com 电话：86-351-4924040<br />
+      晋icp备05004143-1号</p>
+  </div>
+  <div class="right">
+    <form>
+      <select style="width:109px;">
+        <option>----友情链接----</option>
+        <option>山西省人民政府</option>
+        <option>山西国有资产监督管理委员会</option>
+        <option>山西省发展和改革委员会</option>
+        <option>山西安全生产监督管理局</option>
+        <option>国家能源局山西监管办公室</option>
+        <option>山西省经济和信息化委员会</option>
+        <option>山西省太原市建设局</option>
+        <option>山西省煤炭工业厅</option>
+        <option>山西省环境保护网</option>
+        <option>新华网</option>
+        <option>中国网</option>
+        <option>大同煤矿集团公司</option>
+        <option>山西阳泉煤业（集团）有限责任公司</option>
+        <option>山西潞安矿业（集团）有限责任公司</option>
+        <option>山西晋城无烟煤矿业集团有限公司</option>
+        <option>山西焦煤集团有限责任公司</option>
+        <option>山西煤炭进出口集团有限公司</option>
+        <option>山西省国新能源发展集团有限公司</option>
+        <option>格盟国际能源有限公司</option>
+      </select>
+      <select>
+        <option>----下属单位链接----</option>
+        <option>山西煤炭运销集团有限公司</option>
+        <option>山西国际电力集团有限公司</option>
+        <option>晋能铁路煤炭信息网</option>
+        <option>晋能品牌文化网</option>
+        <option>晋能集团采购平台</option>
+        <option>山西省晋神能源有限公司</option>
+      </select>
+    </form>
+  </div>
+</div>
+<script type="text/javascript">
+var TabbedPanels1 = new Spry.Widget.TabbedPanels("TabbedPanels1");
+var TabbedPanels2 = new Spry.Widget.TabbedPanels("TabbedPanels2");
+</script>
+</body>
+</html>

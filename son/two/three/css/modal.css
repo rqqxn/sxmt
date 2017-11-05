@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0; padding:0;}
+.clearfix:after{ height:0; display:block; content:'.'; visibility:hidden; clear:both;}
+ul,li,h1,h2,h3,h4,h5,h6,p,dl,dt,dd,form,label,img{display:block; font-size:14px;}
+ul{list-style:none;}
+a{ text-decoration:none;}
+img{border:0;}
+.ellipsis{white-space: nowrap;/*空白不换行*/  text-overflow: ellipsis;/*显示省略号*/  overflow: hidden; /*溢出：隐藏*/ overflow-x:hidden;overflow-y:hidden;}
+a:link{text-decoration:none; outline:none;}
+a:visited{color:#ccc;}
+a:hover{color:red;}
+a:active{color:#f90;}
+
+.top{ width:100%; margin:0 auto; background: url(../img/33_02.gif) repeat-x left top;}
+.top .box{ width:994px; margin:0 auto; height:163px; padding-top:13px; background: url(../img/pic_05.gif) no-repeat right 71px;}
+.top .box>a{ float:left; line-height:16px; border-right:1px solid #c5d0cc; text-align:center; font-size:12px; color:#16583d;}
+.top .box a:hover{ color:#F00;}
+.top .box>img{ float:left; margin:8px 194px 0 10px;}
+.top .box form p{ width:340px; float:right; margin:16px 2px 13px 0; height:30px;}
+.top .box form p label{ display:block; width:88px; hieght:30px; line-height:30px; float:right;}
+.top .box form p label:hover{ cursor:pointer;}
+.top .box form p input{ display:block; width:251px; height:26px; line-height:26px; float:left; border:1px solid #CCC; border-right:0;}
+.top .box .one{width:982px; margin:0 auto;}
+.top .box ul{background:url(../img/menu_bg.gif) no-repeat center top; height:59px; margin-top:105px;}
+.top .box ul li{ float:left;}
+.top .box ul li a{display:block; height:56px;}
+.top .box ul li:nth-child(1) a:hover{background: url(../img/menu_bg2.gif) no-repeat -3px top;}
+.top .box ul li:nth-child(2) a:hover{background: url(../img/menu_bg2.gif) no-repeat -130px top;}
+.top .box ul li:nth-child(3) a:hover{background: url(../img/menu_bg2.gif) no-repeat -272px top;}
+.top .box ul li:nth-child(4) a:hover{background: url(../img/menu_bg2.gif) no-repeat -550px top;}
+.top .box ul li:nth-child(5) a:hover{background: url(../img/menu_bg2.gif) no-repeat -411px top;}
+.top .box ul li:nth-child(6) a:hover{background: url(../img/menu_bg2.gif) no-repeat -836px top;}
+.top .box ul li:nth-child(7) a:hover{background: url(../img/menu_bg2.gif) no-repeat -690px top;}
+.wrap-f{background:#e8ebef; padding:15px 0 17px 0;}
+.footer{width:980px; margin:0 auto; background:url(../img/foot_bg.jpg) no-repeat left top; border:1px solid #d2d5da;}
+.footer .left{float:left; padding-left:29px; width:555px;}
+.footer .left p{ font-size:12px; color:#030303;}
+.footer .left p:nth-child(1){height:26px; line-height:26px; color:#275a3b; padding-top:17px; font-weight:bold;}
+.footer .left p:nth-child(2){line-height:24px;}
+.footer .right{float:right; padding-right:14px; padding-top:11px;}
+.footer .right form p select{height:20px; line-height:20px; border:1px solid #e1e2e4; font-size:12px; color:#000; border-top-color:#a0a2a1;}
+.footer .right form p select:nth-child(1){ width:109px;}
+.footer .right form p select:nth-child(2){ width:171px;}

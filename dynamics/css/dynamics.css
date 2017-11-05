@@ -1,0 +1,69 @@
+@charset "utf-8";
+/* CSS Document */
+body{background:#ffffff;}
+.top{ width:100%; margin:0 auto; background: url(../img/modal/33_02.gif) repeat-x left top;}
+.top .box{ width:994px; margin:0 auto; height:163px; padding-top:13px; background: url(../img/modal/pic_05.gif) no-repeat right 71px;}
+.top .box>a{ float:left; line-height:16px; border-right:1px solid #c5d0cc; text-align:center; font-size:12px; color:#16583d;}
+.top .box a:hover{ color:#F00;}
+.top .box>img{ float:left; margin:8px 194px 0 10px;}
+.top .box form p{ width:340px; float:right; margin:16px 2px 13px 0; height:30px;}
+.top .box form p label{ display:block; width:88px; hieght:30px; line-height:30px; float:right;}
+.top .box form p label:hover{ cursor:pointer;}
+.top .box form p input{ display:block; width:251px; height:26px; line-height:26px; float:left; border:1px solid #CCC; border-right:0;}
+.top .box .one{width:982px; margin:0 auto;}
+.top .box ul{background:url(../img/modal/menu_bg.gif) no-repeat center top; height:59px; margin-top:105px;}
+.top .box ul li{ float:left;}
+.top .box ul li a{display:block; height:56px;}
+.top .box ul li:nth-child(1) a:hover{background: url(../img/modal/menu_bg2.gif) no-repeat -3px top;}
+.top .box ul li:nth-child(2) a:hover{background: url(../img/modal/menu_bg2.gif) no-repeat -130px top;}
+.top .box ul li:nth-child(3) a:hover{background: url(../img/modal/menu_bg2.gif) no-repeat -272px top;}
+.top .box ul li:nth-child(4) a:hover{background: url(../img/modal/menu_bg2.gif) no-repeat -550px top;}
+.top .box ul li:nth-child(5) a:hover{background: url(../img/modal/menu_bg2.gif) no-repeat -411px top;}
+.top .box ul li:nth-child(6) a:hover{background: url(../img/modal/menu_bg2.gif) no-repeat -836px top;}
+.top .box ul li:nth-child(7) a:hover{background: url(../img/modal/menu_bg2.gif) no-repeat -690px top;}
+
+.box{ width:100%; background:url(../img/modal/kk_03.gif) repeat-x;}
+.wrap:nth-child(3){width:100%; border-top:1px solid #e8eae9; margin-top:5px; background:url(../img/images1/bei_03.jpg) repeat-x;}
+.main{width:980px; margin:0 auto; padding-top:7px;}
+.main .banner{height:183px; margin-bottom:14px; margin-top:7px;}
+.main .content{width:970px; height:546px; background:#ffffff; padding:8px 0 0 10px;}
+.main .content .list,.right{float:left;}
+.main .content .list{width:264px; padding:7px 0 0 6px; margin-right:10px; background:url(../img/images1/ims.gif) no-repeat, url(../img/images1/ims_1.gif) no-repeat 211px 0;}
+.main .content .list ul{width:256px; height:205px; background:#f9f9f9; border:1px solid #dddddd; padding-top:17px;}
+.main .content .list h1{height:35px; line-height:35px; padding-left:15px; font-size:16px; font-family:微软雅黑; color:#fcffff; background: url(../img/images1/ims_07.jpg) no-repeat;}
+.main .content .list ul li{width:221px; padding:12px 0 0 35px;  background:url(../images1/ims_18.jpg) no-repeat 16px bottom; position:relative;}
+.main .content .list ul li>div{width:6px; height:6px; border-radius:6px; border:1px solid #7bab9b; position:absolute; left:12px; top:14px; box-shadow:0 0  1px 1px #7bab9b;}
+.main .content .list ul li a{display:block; height:22px; line-height:12px; font-size:12px; font-family:微软雅黑; font-weight:bold; color:#1c5340;}
+.main .content .list ul li:hover{ background:url(../img/images1/ims_1.jpg) no-repeat 5px 4px;}
+.main .content .list ul li:hover a{color:#ffffff;}
+.main .content .list ul li:hover div{width:7px; height:7px; border-radius:7px; border:2px solid #ffffff; border-shadow:0 0 2px 4px #ffffff;}
+.main .content .right{width:682px;}
+.main .content .right .top{height:96px; padding-left:20px; background:url(../img/images1/ims_2.gif) no-repeat, url(../images1/ims_3.gif) no-repeat 543px top; position:relative;}
+.main .content .right .top img{position:absolute; left:34px; top:26px;}
+.main .content .right .top .top-left,.top-right{float:left;}
+.main .content .right .top .top-left{width:184px; height:70px; line-height:12px; padding:24px 0 0 80px; border-bottom:2px solid #959595; font-size:16px; font-family:微软雅黑; color:#005d3d; margin-right:3px;}
+.main .content .right .top .top-right{width:225px; height:74px; line-height:12px; padding:20px 0 0 151px; font-size:12px; font-family:微软雅黑; color:#010101; border-bottom:2px solid #2d6b56;}
+.main .content .right .top .top-right a{font-size:12px; color:#626262;}
+.main .content .right .top .top-right a:hover{color:#0b5b40; text-shadow:0 0 1px 1px #d4ffff;}
+.main .content .right .bottom{width:609px; padding:26px 0 0 35px;}
+.main .content .right .bottom ul:nth-child(1) li{height:30px; line-height:28px; border-bottom:1px dashed #a2a2a2;}
+.main .content .right .bottom ul:nth-child(1) li a{float:left; display:block; width:530px; height:30px; font-size:12px; color:#6d6d6d;}
+.main .content .right .bottom ul:nth-child(1) li a:hover{color:#0a583e;  text-shadow:0 0 1px 1px #dcffff;}
+.main .content .right .bottom ul:nth-child(1) li span{height:30px; line-height:28px; font-size:12px; color:#248162; text-shadow:0 0 1px 1px #dcffff;}
+.main .content .right .bottom ul:nth-child(2){padding:47px 0 0 137px;}
+.main .content .right .bottom ul:nth-child(2) li{float:left; width:30px; height:26px; border-radius:2px; background:#f0eeef; margin-right:6px;}
+.main .content .right .bottom ul:nth-child(2) li a{display:block; line-height:26px; text-align:center; font-size:12px; color:#696768;}
+.main .content .right .bottom ul:nth-child(2) li a:hover{background:#028158; color:#d1ffff; transition:0.5s; border-radius:2px;}
+.main .content .right .bottom ul:nth-child(2) li:nth-child(6){background:none; line-height:13px; text-align:center; font-size:18px;}
+.main .content .right .bottom ul:nth-child(2) li:nth-child(7){width:48px;}
+.main .content .right .bottom ul:nth-child(2) li:nth-child(8){width:60px;}
+
+.wrap:nth-child(4){width:100%; background:#e8ebf0; padding-top:15px;}
+.footer{width:949px; height:96px; border:1px solid #d1d5d8; padding-left:29px; margin:16px auto 2px auto; background:url(../img/images1/c_ims_11_03.jpg);}
+.footer>div{float:left;}
+.footer .left{width:644px; padding-top:19px;}
+.footer .left p{height:24px; line-height:24px; font-size:12px; color: #030303;font-family:微软雅黑;}
+.footer .left p:nth-child(1){color:#2c5c1e;}
+.footer .right{padding-top:11px; height:86px; background:url(../images1/c_ims_22.jpg) no-repeat 170px 52px;}
+.footer .right select:nth-child(1){width:109px; hegiht:17px; border:1px solid #a7a7a5; border-radius:1px; margin-right:7px; font-size:12px; color:#000000;}
+.footer .right select:nth-child(2){width:171px; hegiht:17px; border:1px solid #a7a7a5; border-radius:1px; font-size:12px; color:#000000;}

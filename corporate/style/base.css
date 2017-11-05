@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0; padding:0;}
+.clearfix:after{height:0; display:block; content:'.'; visibility:hidden; clear:both;}
+ul,li,p,h1,h2,h3,h4,h5,h6,form,label,aside,section,header,footer,dd,dt,dl,fieldset,legend,nav,acticle{display:block;}
+ul{list-style:none;}
+img:{border:0;}
+body{font-famliy:"黑体"; font-size:14px;}
+a{text-decoration:none; outline:none;}
+.ellisis{white-space:nowrap;  text-overflow:ellipsis;  overflow:hidden; }
+a:link{text-decoration:none; outline:none;}
+a:visited{color:#ccc;}
+a:hover{color:red;}
+a:active{color:#f90;}
+.ft12{ font-size:12px;}
+.ft14{ font-size:14px;}

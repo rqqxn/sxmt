@@ -1,0 +1,74 @@
+*{margin:0;padding:0;}
+body{font-size:12px;font-family:"Microsoft YaHei";}
+ul,li{list-style:none;}
+a{ text-decoration:none; display:block; color:#626463;}
+#tab2{position:relative;}
+#tab2 .tabList ul li{
+	float:left;
+	background:#fefefe;
+	background:-moz-linear-gradient(top, #fefefe, #ededed);	
+	background:-o-linear-gradient(left top,left bottom, from(#fefefe), to(#ededed));
+	background:-webkit-gradient(linear,left top,left bottom, from(#fefefe), to(#ededed));
+	border:1px solid #ccc;
+	padding:5px 0;
+	width:50px;
+	text-align:center;
+	margin-left:-1px;
+	position:relative;
+	cursor:pointer;
+	 margin-top:10px;
+	 color:#CCC;
+}
+#tab2 .tabList ul li a:hover{ color:#FFF;}
+#tab2 .tabCon{
+	position:absolute;
+	left:0px;
+	top:52px;
+	border:0;
+	border-top:none;
+	width:318px;
+	height:196px;
+}
+#tab2 .tabCon div{
+	position:absolute;
+	opacity:0;
+	filter:alpha(opacity=0);
+}
+#tab2 .tabCon div p{
+	width:318px;
+	display:block;
+	float:left;
+	line-height:14px;
+	border-bottom:0;
+	padding-left:10px;
+	background: url(../../image/pic_03.gif) no-repeat 12px 3px;
+}
+
+#tab2 .tabCon div p a{
+	line-height:14px;
+	width:318px;
+	text-indent:20px;
+	float:left;
+	height:26px; 
+	color:#424242;
+}
+
+#tab2 .tabCon div p a:hover{
+	color:red;
+}
+
+#tab2 .tabCon div>span{
+	display:block;
+	width:80px;
+	height:26px;
+	float:left;
+}
+
+#tab2 .tabList li.cur{
+	border-bottom:none;
+	background: url(../../image/xx_03.gif) no-repeat left top;
+}
+#tab2 .tabCon div.cur{
+	opacity:1;
+	filter:alpha(opacity=100);
+}
